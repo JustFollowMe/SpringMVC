@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="DB2Tables">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/springmvc" 
+    				driverClass="com.mysql.jdbc.Driver" password="abc123" userId="root" />
+    <javaModelGenerator targetPackage="com.yixin.model" targetProject="/src/main/java" />
+    <sqlMapGenerator targetPackage="com.yixin.mapping" targetProject="src/main/java" />
+    <javaClientGenerator targetPackage="???" targetProject="???" type="XMLMAPPER" />
+    <table schema="???" tableName="???">
+      <columnOverride column="???" property="???" />
+    </table>
+    
+  </context>
+</generatorConfiguration>
